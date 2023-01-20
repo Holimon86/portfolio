@@ -7,9 +7,9 @@ body{
 }
 
 :root{
-    --color-primary: #000000;
-    --color-secondary: #ffffff;
-    --color-border: #ffffff34;
+    --color-primary: rgb(113,5,244);
+    --color-secondary: rgb(240, 241, 235);
+    --color-border: rgb(8, 8, 8);
     --font-staat: 'Staatliches', cursive;
     --font-os:  'Oswald', sans-serif;
     --font-ram: 'Rambla', sans-serif;
@@ -18,16 +18,27 @@ body{
 /* global classes */
 .font-staat{
     font: normal 400 18px var(--font-staat);
+    text-shadow: #eaff00;
 }
+
+.font-size-44{
+    font-size: 80px;
+    text-shadow: 0px 6px 4px #cfd90e;
+}
+
 .font-os{
     font: normal 300 18px var(--font-os);
+    text-shadow: #0c0c0c;
+    text-transform: capitalize;
 }
 .font-ram{
     font: normal bold 18px var(--font-ram);
 }
 
 .font-size-40{
-    font-size: 40px;
+    font-size: 80px;
+    text-shadow: 3px 6px 4px rgba(97, 65, 144, 0.861);
+    
 }
 .font-size-34{
     font-size: 34px;
@@ -38,12 +49,29 @@ body{
 .font-size-20{
     font-size: 20px;
 }
-.font-size-16{
+.font-size-16 {
+    font-family: "Arial Black", Gadget, sans-serif;
     font-size: 16px;
+    letter-spacing: 0px;
+    word-spacing: 2px;
+    color: #f9f6f6;
+    font-weight: 500;
+    text-decoration: underline solid rgb(239, 247, 7);
+    font-style: normal;
+    font-variant: normal;
+    text-transform: capitalize;
+    border-bottom: 4px solid #f7fb06;
+    
 }
 
-.bgcolor-primary{
+/* .bgcolor-primary{
     background-color: var(--color-primary);
+} */
+
+#side-nav {
+    background: linear-gradient(90deg, rgba(26,26,27,1) 0%, rgba(62,41,119,1) 35%, rgba(206,209,209,0.08307072829131656) 100%);
+
+    border-right: 4px solid #eaee05;
 }
 
 /* #global classes */
@@ -61,7 +89,7 @@ body{
     height: 100vh;
 }
 #header .site-title .navbar-brand{
-    letter-spacing: 2px;
+    letter-spacing: 4px;
     color: var(--color-secondary);
 }
 
@@ -81,7 +109,7 @@ body{
     position: fixed;
     top: 25px;
     right: 20px;
-    border: 1px solid var(--color-border);
+    border: 1px solid var(--color-primary);
 }
 
 .toggle-left{
@@ -93,7 +121,7 @@ body{
 
 
 .site-banner .banner-area{
-    background: url(https://images.unsplash.com/photo-1468608374703-abdfab03d1bc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80) no-repeat;
+    background: url('./assets/manJumpingFromFailure.jpeg') no-repeat;
     background-size: cover;
     width: 100%;
     height: 100vh;
@@ -129,3 +157,125 @@ body{
 }
 
 /* #site-main */
+.skill-pics {
+    width: auto;
+    height: 150px;
+}
+.projects {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.education {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.resume {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold ;
+}
+
+.text-center1{
+    text-shadow: 3px 6px 4px rgba(142, 8, 244, 0.833);
+}
+.text-center{
+    text-shadow: 3px 6px 4px rgba(243, 251, 10, 0.833);
+}
+
+.flex-column {
+
+    text-shadow: var(--color-primary);
+}
+
+/* .project1 {
+    -moz-transform: scale(0.5) translate(-33px, 0px);
+    -webkit-transform: scale(0.5) translate(-33px, 0px);
+    -o-transform: scale(0.5) translate(-33px, 0px);
+    -ms-transform: scale(0.5) translate(-33px, 0px);
+    transform: scale(0.5) translate(-33px, 0px);
+    margin-left: 40px;
+} */
+/* .project2 {
+    -moz-transform: scale(0.5) translate(-33px, 0px);
+    -webkit-transform: scale(0.5) translate(-33px, 0px);
+    -o-transform: scale(0.5) translate(-33px, 0px);
+    -ms-transform: scale(0.5) translate(-33px, 0px);
+    transform: scale(0.5) translate(-33px, 0px);
+    margin-left: 40px;
+} */
+
+.webProjects {
+    width: 50vw;
+    height: auto;
+    display: flex;
+    margin: auto
+    
+}
+
+.webEducation1 {
+    width: 10vw;
+    height:20vh;
+    display: flex;
+    
+    
+}
+.webEducation2 {
+    width: 33vw;
+    height: 20vh;
+    display: flex;
+    margin: auto
+}
+.webEducation3 {
+    width: 33vw;
+    height: 20vh;
+    display: grid;
+    margin: auto
+}
+
+#skills {
+    text-shadow: 3px 6px 4px rgba(122, 73, 160, 0.833);
+    padding-top: 60px;
+    margin-bottom: 80px;
+}
+
+#projects {
+    text-shadow: 3px 6px 4px rgba(122, 73, 160, 0.833);
+    padding-top: 60px;
+    margin-bottom: 80px;
+}
+#education {
+    text-shadow: 3px 6px 4px rgba(122, 73, 160, 0.833);
+    padding-top: 60px;
+    margin-bottom: 80px;
+}
+#experience {
+    text-shadow: 3px 6px 4px rgba(122, 73, 160, 0.833);
+    padding-top: 60px;
+    margin-bottom: 80px;
+}
+#resume {
+    padding-top: 60px;
+    margin-bottom: 80px;
+}
+#experience {
+    text-shadow: 3px 6px 4px rgba(122, 73, 160, 0.833);
+    padding-top: 60px;
+    margin-bottom: 80px;
+}
+
+#contact {
+    text-shadow: 3px 6px 4px rgba(122, 73, 160, 0.833);
+    padding-top: 60px;
+    margin-bottom: 80px;
+}
+
+#ka {
+    text-shadow: none;
+}
+
+#ka1 {
+    text-shadow: none;
+}
