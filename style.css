@@ -269,8 +269,8 @@ body{
 
 #education {
     text-shadow: 3px 6px 4px rgba(80, 52, 126, 0.33);
-    padding-top: 100px;
-    margin-bottom: 60px;
+    padding-top: 200px;
+    margin-bottom:120px;
     text-decoration: underline solid rgba(80, 52, 126, 0.633) 4px;
     /*border-bottom: solid rgba(80, 52, 126, 0.833) 4px;*/
 }
