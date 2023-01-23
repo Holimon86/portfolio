@@ -162,6 +162,8 @@ body{
 .skill-pics {
     width: auto;
     height: 150px;
+    border: rgba(80, 52, 126, 0.933) solid 2px;
+    padding: 10px;
 }
 .projects {
     font-size: 30px;
@@ -222,7 +224,7 @@ body{
     height:20vh;
     display: flex;
     
-    
+   
 }
 .webEducation2 {
     width: 33vw;
@@ -239,7 +241,7 @@ body{
 
 #skills {
     text-shadow: 3px 6px 4px rgba(80, 52, 126, 0.33);
-    padding-top: 60px;
+    padding-top: 90px;
     margin-bottom: 80px;
     text-decoration: underline solid rgba(80, 52, 126, 0.633) 4px;
     /*border-bottom: solid rgba(80, 52, 126, 0.833) 4px;*/
