@@ -195,6 +195,7 @@ body{
     text-shadow: var(--color-primary);
 }
 
+
 /* .project1 {
     -moz-transform: scale(0.5) translate(-33px, 0px);
     -webkit-transform: scale(0.5) translate(-33px, 0px);
@@ -242,7 +243,7 @@ body{
 
 #skills {
     text-shadow: 3px 6px 4px rgba(80, 52, 126, 0.33);
-    padding-top: 180px;
+    padding-top: 300px;
     margin-bottom: 80px;
     text-decoration: underline solid rgba(80, 52, 126, 0.633) 4px;
     /*border-bottom: solid rgba(80, 52, 126, 0.833) 4px;*/
@@ -260,40 +261,48 @@ body{
 
 #projects {
     text-shadow: 3px 6px 4px rgba(80, 52, 126, 0.33);
-    padding-top: 100px;
+    padding-top: 130px;
     margin-bottom: 80px;
     /*border-bottom: solid rgba(80, 52, 126, 0.833) 4px;*/
     text-decoration: underline solid rgba(80, 52, 126, 0.633) 4px;
 
 }
-
-#education {
+#row-education {
     text-shadow: 3px 6px 4px rgba(80, 52, 126, 0.33);
     padding-top: 200px;
     margin-bottom:120px;
+    /*text-decoration: underline solid rgba(80, 52, 126, 0.633) 4px;*/
+    /*border-bottom: solid rgba(80, 52, 126, 0.833) 4px;*/
+}
+#education {
+    text-shadow: 3px 6px 4px rgba(80, 52, 126, 0.33);
+    padding-top: 220px;
+    margin-bottom:80px;
     text-decoration: underline solid rgba(80, 52, 126, 0.633) 4px;
     /*border-bottom: solid rgba(80, 52, 126, 0.833) 4px;*/
 }
+
 
 #row-experience {
     text-shadow: 3px 6px 4px rgba(80, 52, 126, 0.33);
     padding-top: 100px;
     margin-bottom: 10px;
-    text-decoration: underline solid rgba(80, 52, 126, 0.333) 4px;
+    margin-left: 65px;
+    /*text-decoration: underline solid rgba(80, 52, 126, 0.333) 4px;*/
     /*border-bottom: solid rgba(80, 52, 126, 0.833) 4px;*/
 }
 
 #resume {
     text-shadow: 3px 6px 4px rgba(80, 52, 126, 0.13);
-    padding-top: 30px;
+    padding-top: 50px;
     margin-bottom: 50px;
 
     /*border-bottom: solid rgba(80, 52, 126, 0.833) 4px;*/
 }
 #experience {
     text-shadow: 3px 6px 4px rgba(80, 52, 126, 0.33);
-    padding-top: 170px;
-    margin-bottom: 80px;
+    padding-top: 110px;
+    margin-bottom: 60px;
     text-decoration: underline solid rgba(80, 52, 126, 0.633) 4px;
     /*border-bottom: solid rgba(80, 52, 126, 0.833) 4px;*/
 }
@@ -314,4 +323,11 @@ body{
 #ka1 {
     text-shadow: none;
     text-decoration:none;
+}
+
+#portrait {
+  margin-left: 135px; 
+  border: #0c0c0c solid .5px;
+box-shadow: 5px 5px 10px .5px #5c57a5;
+  
 }
