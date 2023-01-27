@@ -243,7 +243,7 @@ body{
 
 #skills {
     text-shadow: 3px 6px 4px rgba(80, 52, 126, 0.33);
-    padding-top: 300px;
+    padding-top: 180px;
     margin-bottom: 80px;
     text-decoration: underline solid rgba(80, 52, 126, 0.633) 4px;
     /*border-bottom: solid rgba(80, 52, 126, 0.833) 4px;*/
@@ -256,12 +256,12 @@ body{
 #row-education {
     /*border-bottom: solid rgba(80, 52, 126, 0.833) 2px;*/
     padding:33px;
-    margin: 2%;
+    margin: 20px;
 }
 
 #projects {
     text-shadow: 3px 6px 4px rgba(80, 52, 126, 0.33);
-    padding-top: 130px;
+    padding-top: 90px;
     margin-bottom: 80px;
     /*border-bottom: solid rgba(80, 52, 126, 0.833) 4px;*/
     text-decoration: underline solid rgba(80, 52, 126, 0.633) 4px;
@@ -276,7 +276,7 @@ body{
 }
 #education {
     text-shadow: 3px 6px 4px rgba(80, 52, 126, 0.33);
-    padding-top: 220px;
+    padding-top: 130px;
     margin-bottom:80px;
     text-decoration: underline solid rgba(80, 52, 126, 0.633) 4px;
     /*border-bottom: solid rgba(80, 52, 126, 0.833) 4px;*/
@@ -285,8 +285,8 @@ body{
 
 #row-experience {
     text-shadow: 3px 6px 4px rgba(80, 52, 126, 0.33);
-    padding-top: 100px;
-    margin-bottom: 10px;
+    padding-top: 130px;
+    margin-bottom: 50px;
     margin-left: 65px;
     /*text-decoration: underline solid rgba(80, 52, 126, 0.333) 4px;*/
     /*border-bottom: solid rgba(80, 52, 126, 0.833) 4px;*/
@@ -294,15 +294,17 @@ body{
 
 #resume {
     text-shadow: 3px 6px 4px rgba(80, 52, 126, 0.13);
-    padding-top: 50px;
+    padding-top: 80px;
+    margin-top: -80px;
     margin-bottom: 50px;
 
     /*border-bottom: solid rgba(80, 52, 126, 0.833) 4px;*/
 }
 #experience {
     text-shadow: 3px 6px 4px rgba(80, 52, 126, 0.33);
-    padding-top: 110px;
-    margin-bottom: 60px;
+    padding-bottom: 110px;
+    /*padding-top: 110px;*/
+    margin-bottom: 10px;
     text-decoration: underline solid rgba(80, 52, 126, 0.633) 4px;
     /*border-bottom: solid rgba(80, 52, 126, 0.833) 4px;*/
 }
