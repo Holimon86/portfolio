@@ -252,6 +252,7 @@ body{
 
 #madLibs {
     box-shadow: 3px 6px 4px rgba(80, 52, 126, 0.33);
+    padding-top: 20px;
 }
 
 #skills {
