@@ -117,12 +117,20 @@ body{
     width: 1000px !important;
 }
 
+#githubpng {
+    -moz-transform: scale(0.6);
+    -webkit-transform: scale(0.6);
+    -o-transform: scale(0.6);
+    -ms-transform: scale(0.6);
+    transform: scale(0.6);
+}
+
 /* site-main */
 
 
 .site-banner .banner-area{
     background: url('./assets/manJumpingFromFailure.jpeg') no-repeat;
-    background-size: cover;
+    background-size: coverre;
     width: 100%;
     height: 100vh;
     position: relative;
@@ -346,4 +354,9 @@ body{
   border: #0c0c0c solid .5px;
 box-shadow: 5px 5px 10px .5px #5c57a5;
   
+}
+
+#eMail {
+    color:rgba(80, 52, 126, 0.633);
+     
 }
