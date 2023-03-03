@@ -131,7 +131,7 @@ body{
 .site-banner .banner-area{
     background: url('./assets/manJumpingFromFailure.jpeg') no-repeat;
     background-size: coverre;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     position: relative;
     border-bottom: solid rgba(80, 52, 126, 0.633) 4px;
